@@ -1,0 +1,231 @@
+html, body{
+  padding:0;
+  font:15px/1.5 Roboto;
+  width:100%;
+    margin:auto;
+    height:100%;
+    overflow-x: hidden;
+}
+
+.navbar{
+  text-transform: uppercase;
+  background-color: #505962;
+  font-family: 'Raleway';
+  font-size: 20px;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+.navbar li{
+  margin-right: 30px;
+}
+
+#profile-section{
+  padding-top: 100px;
+}
+
+#languages{
+padding-top: 100px;
+max-width: 100%;
+align-items: center;
+}
+
+h3.heading{
+  text-align: center;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color:  #4682B4;
+  font-family: 'Raleway';
+  margin-top: 3.9rem;
+  margin-bottom: 7.9rem;
+}
+
+
+.carousel-inner img {
+  margin: auto;
+  position: relative;
+  height: 750px;
+  max-height: 750px;
+}
+.container{
+  margin: 2%auto;
+}
+
+.row{
+
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:190px;
+}
+
+#icon{
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+
+h2 {
+  position:relative;
+  font-size: 140px;
+  padding: 120px;
+  color:  #DC143C;
+   
+}
+
+
+#contact-me{
+  font-size: 50px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+  
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+
+#main{
+  margin:auto;
+  width: 60%;
+  text-align: center;
+  padding-top: 200px;
+  
+}
+
+#main h1{
+    color:#DC143C;
+    opacity: 0.7;
+    padding-bottom: 60px;
+}
+
+#myProjects{
+  text-align:center;
+  padding:50px 80px;
+}
+
+#myProjects h2{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #DC143C
+}
+
+#project-links{
+  font-size:18px;
+  text-align: center;
+  margin: auto;
+    width: 50%;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+footer {
+  margin:auto;
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+  position: relative;
+  background-color: #282e34;
+    padding:20px; 
+  text-align:center;
+  width:100%;
+  font-size:20px;
+  margin-top: 100px
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #d5d5d5;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+ @media only screen and (min-width:960px){
+        
+    }
+    @media only screen and (min-width:1440px){
+         
+    }
+    @media only screen and (min-width:2000px){
+        
+    }
+    @media only screen and (max-device-width:480px){
+        
+    }
+    @media only screen and (device-width:768px){
+      
+    }
+    
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+     
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #icon{
+    max-width: 150px;
+  }
+  .carousel-caption{
+    display: none
+  }
+}
